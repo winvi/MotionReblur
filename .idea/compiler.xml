@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel target="23" />
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_STRING" value="-AoutRefMapFile=C:\Users\User\Desktop\post\Motion-ReBlur\MotionReReblur-1.21.8\build\classes\java\main\motionreblur-refmap.json -AdefaultObfuscationEnv=named:intermediary -Aquiet=true -AoutMapFileNamedIntermediary=C:\Users\User\Desktop\post\Motion-ReBlur\MotionReReblur-1.21.8\build\loom-cache\mixin-map-net.fabricmc.yarn.1_21_8.1.21.8+build.1-v2.main.tiny -AinMapFileNamedIntermediary=C:\Users\User\.gradle\caches\fabric-loom\1.21.8\net.fabricmc.yarn.1_21_8.1.21.8+build.1-v2\mappings.tiny" />
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="MotionReReblur-1.21.10.test" options="-AoutRefMapFile=C:\Users\User\Desktop\post\Motion-ReBlur\MotionReReblur-1.21.10\build\classes\java\test\test-motionreblur-refmap.json -AdefaultObfuscationEnv=named:intermediary -Aquiet=true -AoutMapFileNamedIntermediary=C:\Users\User\Desktop\post\Motion-ReBlur\MotionReReblur-1.21.10\build\loom-cache\mixin-map-net.fabricmc.yarn.1_21_10.1.21.10+build.3-v2.test.tiny -AinMapFileNamedIntermediary=C:\Users\User\.gradle\caches\fabric-loom\1.21.10\net.fabricmc.yarn.1_21_10.1.21.10+build.3-v2\mappings.tiny" />
+      <module name="MotionReReblur-1.21.8.test" options="-AoutRefMapFile=C:\Users\User\Desktop\post\Motion-ReBlur\MotionReReblur-1.21.8\build\classes\java\test\test-motionreblur-refmap.json -AdefaultObfuscationEnv=named:intermediary -Aquiet=true -AoutMapFileNamedIntermediary=C:\Users\User\Desktop\post\Motion-ReBlur\MotionReReblur-1.21.8\build\loom-cache\mixin-map-net.fabricmc.yarn.1_21_8.1.21.8+build.1-v2.test.tiny -AinMapFileNamedIntermediary=C:\Users\User\.gradle\caches\fabric-loom\1.21.8\net.fabricmc.yarn.1_21_8.1.21.8+build.1-v2\mappings.tiny" />
+    </option>
+  </component>
+</project>

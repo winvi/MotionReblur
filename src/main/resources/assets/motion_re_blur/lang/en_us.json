@@ -1,0 +1,17 @@
+{
+  "key.motion_re_blur.open_gui": "Open Motion Blur Settings",
+  "category.motion_re_blur": "Motion ReBlur",
+  
+  "gui.motion_re_blur.title": "Motion ReBlur Settings",
+  "gui.motion_re_blur.button": "Motion ReBlur...",
+  
+  "gui.motion_re_blur.toggle": "Motion Blur",
+  "gui.motion_re_blur.strength": "Strength: %s",
+  "gui.motion_re_blur.quality": "Quality: %s",
+  "gui.motion_re_blur.quality.low": "Low",
+  "gui.motion_re_blur.quality.medium": "Medium",
+  "gui.motion_re_blur.quality.high": "High",
+  "gui.motion_re_blur.quality.ultra": "Ultra",
+  "gui.motion_re_blur.rrc": "Monitor Adaptation",
+  "gui.motion_re_blur.hand_threshold": "Hand Threshold: %s"
+}
