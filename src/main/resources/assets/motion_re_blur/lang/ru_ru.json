@@ -1,0 +1,17 @@
+{
+  "key.motion_re_blur.open_gui": "Открыть настройки Motion Blur",
+  "category.motion_re_blur": "Motion ReBlur",
+  
+  "gui.motion_re_blur.title": "Настройки Motion ReBlur",
+  "gui.motion_re_blur.button": "Motion ReBlur...",
+  
+  "gui.motion_re_blur.toggle": "Motion Blur",
+  "gui.motion_re_blur.strength": "Сила: %s",
+  "gui.motion_re_blur.quality": "Качество: %s",
+  "gui.motion_re_blur.quality.low": "Низкое",
+  "gui.motion_re_blur.quality.medium": "Среднее",
+  "gui.motion_re_blur.quality.high": "Высокое",
+  "gui.motion_re_blur.quality.ultra": "Ультра",
+  "gui.motion_re_blur.rrc": "Адаптация к монитору",
+  "gui.motion_re_blur.hand_threshold": "Порог рук: %s"
+}

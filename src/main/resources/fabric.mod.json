@@ -1,11 +1,12 @@
 {
   "schemaVersion": 1,
-  "id": "motionreblur",
+  "id": "motion_re_blur",
   "version": "1.0",
   "name": "Motion ReBlur",
   "description": "Motion Blur for Minecraft",
   "authors": [
-    "winvi"
+    "winvi",
+    "Padej_"
   ],
   "contact": {},
   "license": "winvi-license",
@@ -17,14 +18,25 @@
     ]
   },
   "mixins": [
-    "motionreblur.mixins.json"
+    "motion_re_blur.mixins.json"
   ],
-  "accessWidener": "motionreblur.accesswidener",
+  "accessWidener": "motion_re_blur.accesswidener",
   "depends": {
-    "fabricloader": ">=0.17.0",
+    "fabricloader": ">=0.16.0",
     "fabric-api": "*",
-    "minecraft": "~1.21.4",
-    "java": ">=21",
-    "satin": ">=3.0.0-alpha.1"
+    "minecraft": ">=1.21.9 <=1.21.10",
+    "java": ">=21"
+  },
+  "custom": {
+    "modmenu": {
+      "badges": ["client"],
+      "links": {
+        "modmenu.discord": "https://discord.gg/example"
+      }
+    },
+    "iris": {
+      "compatible": true,
+      "note": "Motion Blur works alongside Iris shaders"
+    }
   }
 }
