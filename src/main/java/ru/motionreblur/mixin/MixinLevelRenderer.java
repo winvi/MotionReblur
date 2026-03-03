@@ -9,7 +9,7 @@ import org.spongepowered.asm.mixin.Unique;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
-import ru.motionreblur.MotionBlurModule;
+import ru.motionreblur.config.Module;
 
 @Mixin(WorldRenderer.class)
 public class MixinLevelRenderer {
@@ -24,7 +24,7 @@ public class MixinLevelRenderer {
     private void setMatrices(ObjectAllocator allocator, RenderTickCounter tickCounter, boolean renderBlockOutline, Camera camera, GameRenderer gameRenderer, Matrix4f positionMatrix, Matrix4f projectionMatrix, CallbackInfo ci) {
         float tickDelta = tickCounter.getTickDelta(true);
         float fov = ((GameRendererAccessor) gameRenderer).invokeGetFov(camera, tickDelta, true);
-        MotionBlurModule.getInstance().shader.setFrameMotionBlur(positionMatrix, prevModelView,
+        Module.getInstance().shader.setFrameMotionBlur(positionMatrix, prevModelView,
                 gameRenderer.getBasicProjectionMatrix(fov),
                 prevProjection,
                 new Vector3f(
